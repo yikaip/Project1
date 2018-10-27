@@ -1,3 +1,7 @@
+//Yikai Peng
+//Oct.25
+//SLData.h
+
 #include <iostream>
 using namespace std;
 
@@ -17,6 +21,4 @@ public:
 	LinkedList();
 	~LinkedList();
 	void add(float data);
-	void insertToList(Node* current, float data);
-	void printSummary();
 };
